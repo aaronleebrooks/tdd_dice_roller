@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.results {
+  width: 250px;
+}
+
+.result-p {
+  display: inline-block;
+}
+
+.result-p:after { 
+  content: ", ";
+}
+
+.result-p:last-of-type:after {
+  content: ""
+}
