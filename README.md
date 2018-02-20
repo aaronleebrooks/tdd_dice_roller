@@ -26,7 +26,7 @@ In this application, I also made sure to include my coding coverage. I know how 
 
 ## File Organization
 
-The best part of any video game is inventory management. Just kidding. However, file management is incrediblyimportant, especially when you are working with larger applications with dozens of components, hundreds of assets, and lots and lots of code.
+The best part of any video game is inventory management. Just kidding. However, file management is incredibly important, especially when you are working with larger applications with dozens of components, hundreds of assets, and lots and lots of code.
 
 Components that are going to be used across many different components, such as buttons, text inputs, or navigation bars, should be separate components so that can be reached from other larger components.
 
