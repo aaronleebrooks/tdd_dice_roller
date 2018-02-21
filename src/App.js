@@ -94,7 +94,7 @@ class App extends Component {
           <div className="header">
             <h1>Roll for initiative</h1>
             <p>Thanks for visiting my coding sample. I created this DnD dice roller app with Test Driven Development. You can find out more about my process in the README.</p>
-            <p>Please visit my <a href="https://github.com/aaronleebrooks" target="_blank">GitHub</a> or my <a href="http://aaronleebrooks.com" target="_blank">Portfolio Site</a></p>
+            <p>Please visit my <a href="https://github.com/aaronleebrooks" rel="noopener noreferrer" target="_blank">GitHub</a> or my <a href="http://aaronleebrooks.com" rel="noopener noreferrer" target="_blank">Portfolio Site</a></p>
           </div>
           <div className="holder" id="d4">
             <Button className="roller" handleClick={() => this._rollDice(4)} id="d4-button" label="d4"/>
