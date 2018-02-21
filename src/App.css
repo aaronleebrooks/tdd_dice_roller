@@ -16,6 +16,10 @@
   padding: 80px 40px;
 }
 
+a {
+  color: white;
+}
+
 .header {
   color: white;
   padding: 20px;
@@ -30,6 +34,8 @@
 
 .results {
   width: 250px;
+  min-height: 75px;
+  border: 1px solid white;
 }
 
 .result-p {
